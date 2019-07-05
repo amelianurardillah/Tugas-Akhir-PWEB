@@ -1,0 +1,108 @@
+/* bagian body ini mengatur background pada body/badan web, dan disini saya menggunakan sebuah gambar yg telah disimpan dalam satu folder */
+body{
+	background-image: url(blue.jpeg);
+}
+/* ul ini mengatur pada bagian search/pencarian */
+ul {
+  width: 1000px;
+  font-size: 16px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #33CCCC;
+}
+
+li {
+  float: left;
+}
+/* pada li a ini mengatur bagian yang tulisan home,sosial media dan kontak kami. mengatur dari segi warna, ukuran dan jarak pada kalimat */
+li a {
+  display: block;
+  color: #003333;
+  text-align: center;
+  padding: 14px 16px;
+  padding-left: 50px;
+  padding-right: 80px;
+  text-decoration: none;
+  background-color: #33CCCC;
+}
+
+ li a  : hover {
+	background-color: yellow;
+}
+
+table{
+	text-align: justify;
+
+}
+/* pada bagian all berfungsi untuk lebar serta warna huruf di bagian isi */
+.all{ 
+	width: 1000px;
+	color: #000033;
+} 
+.menu{
+	width: auto;
+	overflow: hidden;
+}
+/* head mengatur pada bagian paling atas, mulai dari background, rata tengah, dan ukuran */
+.head {
+	color: white;
+	background-image: url(img/lentera.jpeg);
+	text-align: center;
+	width : auto;
+	height : 200px;
+	margin-bottom: 10px;
+}
+
+/* bagian sosmed ini mengatur pada tampilan sosial media */
+.sosmed {
+	border-right-style: outset;
+	padding: 10px;
+	height: 20px;
+	width: 252px;
+	text-align: center;
+	padding-top: auto;
+	float: left;
+}
+/* bagian profil ini mengatur pada tampilan profil*/
+.profil{
+	border-right-style: outset;
+	padding: 10px;
+	padding: 10px;
+	height: 20px;
+	width: 252px;
+	text-align: center;
+	float: left;
+}
+/* bagian kontak ini mengatur pada tampilan kontak kami */
+.kontak{
+	padding-top: 13px;
+	padding-left: 280px;
+	height: 20px;
+	width: 1000px;
+	background-color: #cc6633;
+	text-align: center;
+	float: left;
+}
+/* bagian isi terletak di tengah tampilan web, yang mengatur ukuran, background, dan setelan kalimat */
+.isi{
+	margin-top: 10px;
+	padding: 10px;
+	background-image: url(de.jpeg);
+	width: 980px;
+	height: auto;
+	text-align: justify;
+	float: left;
+}
+/* bagian footer ini terletak di bagian paling bawah */
+.footer {
+	float: left;
+	margin-top: 10px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	background-color: #33CCCC;
+	color: black;
+
+}
