@@ -48,7 +48,7 @@ table{
 /* head mengatur pada bagian paling atas, mulai dari background, rata tengah, dan ukuran */
 .head {
 	color: white;
-	background-image: url(img/lentera.jpeg);
+	background-image: url(lentera.jpeg);
 	text-align: center;
 	width : auto;
 	height : 200px;
